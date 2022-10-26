@@ -1,1 +1,7 @@
 # BiodataProcess
+
+生物信息数据的一些基础处理，防止某天不小心删了故上传至github
+
+get_id.py是获取fasta文件中的所有蛋白质的id并写进一个新的txt文件中
+
+process.py是根据id获取相应的氨基酸序列，去除binding位点，即去除后续的0，1数据获取纯氨基酸序列
